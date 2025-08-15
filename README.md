@@ -8,6 +8,7 @@ Current signal report shows the counts of elements and the instrument parameters
 1st input file is the excel file with sampling and dilution information. The file name starts with “ICP #”. The format should be kept the same in order to apply the same code for data processing. 
 2nd input file is the batch table with all measurements. The number of samples in the 1st input file must match the number of samples in the 2nd input file. When multiple samples from different investigations of parameters are analyzed within the same batch, the author has manually separated the two investigation raw data files. This may cause differences in the quick batch report PDF file and the batch table excel file in some cases. The name must contain either “Major” for Li, Na, and K or otherwise “Trace”. 
 The code executes extraction or calculations for following values. 
+
 	Dilution data with salt mass, solution volume, internal standard concentration, dilution factors
 	Raw ICP data with concentration and RSD of each element for each sample 
 	Concentration of replicates, average concentration, sample standard deviation, and propagated error values in mol. % 
